@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/baseline_computer_24"
+            android:title="Employees" />
+        <item
+            android:id="@+id/nav_home2"
+            android:icon="@drawable/baseline_computer_24"
+            android:title="Inventory" />
+        <item
+            android:id="@+id/nav_home3"
+            android:icon="@drawable/baseline_computer_24"
+            android:title="Customers" />
+
+    </group>
+
+
+    <group android:checkableBehavior="single">
+        <item android:title="Other">
+            <menu>
+                <group>
+                    <item
+                        android:id="@+id/nav_home4"
+                        android:title="Settings" android:icon="@drawable/baseline_computer_24" />
+                    <item
+                        android:id="@+id/nav_home5"
+                        android:title="Logout" android:icon="@drawable/baseline_computer_24" />
+                </group>
+            </menu>
+        </item>
+    </group>
+</menu>

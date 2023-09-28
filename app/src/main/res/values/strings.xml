@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">myapp</string>
+    <string name="login">Login</string>
+    <string name="email">email</string>
+    <string name="password">password</string>
+    <string name="register">Register</string>
+    <string name="click_to_login">Login Here</string>
+    <string name="click_to_register">Click Here</string>
+    <string name="logout">logout</string>
+    <string name="open_menu">Open</string>
+    <string name="close_menu">Close</string>
+
+    <string name="myapp">First Application</string>
+</resources>

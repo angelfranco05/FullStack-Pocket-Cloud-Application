@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4sp"
+        android:background="@color/burgandy_CSUDH"
+        android:orientation="vertical"
+        android:padding="20sp">
+
+        <TextView
+            android:id="@+id/CustomerName"
+            android:layout_width="371dp"
+            android:layout_height="38dp"
+            android:text="Customer Name"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/CustomerEmail"
+            android:layout_width="372dp"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:text="Customer Email"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/CustomerCompany"
+            android:layout_width="375dp"
+            android:layout_height="47dp"
+            android:text="Customer Company"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/CustomerPhone"
+            android:layout_width="375dp"
+            android:layout_height="41dp"
+            android:text="Company Phone"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:textStyle="italic" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4sp"
+            android:orientation="horizontal"
+            android:padding="4sp">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/buttonDelete2"
+                android:layout_width="170dp"
+                android:layout_height="60dp"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:background="@color/black"
+                android:text="DELETE"
+                android:textColor="@android:color/white" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/buttonUpdate2"
+                android:layout_width="170dp"
+                android:layout_height="60dp"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:text="UPDATE"
+                android:textColor="@android:color/black" />
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
